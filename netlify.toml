@@ -1,4 +1,7 @@
 [build]
-command = "ng build"
-functions = "netlify/functions"
+command = "npm run build:ssr"
 publish = "dist/el-ebda3-ecommerce/browser"
+functions = "netlify/functions"
+
+[[plugins]]
+package = "@netlify/angular-runtime"
