@@ -7,7 +7,6 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build:ssr": "ng build && ng run El-ebda3-Ecommerce:server",
     "serve:ssr:El-ebda3-Ecommerce": "node dist/el-ebda3-ecommerce/server/server.mjs"
   },
   "private": true,
